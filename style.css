@@ -1,0 +1,51 @@
+body {
+  background: black;
+  color: red;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 42px;
+  letter-spacing: 3px;
+}
+
+nav a {
+  color: red;
+  margin: 10px;
+  font-size: 18px;
+}
+
+.hero {
+  margin-top: 100px;
+}
+
+input {
+  padding: 12px;
+  width: 250px;
+  border: none;
+}
+
+button {
+  padding: 12px;
+  background: red;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.models {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.models a {
+  font-size: 24px;
+  color: red;
+}
